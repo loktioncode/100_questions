@@ -13,3 +13,13 @@ Then, the output should be:
 '''
 
 response = raw_input("Enter a comma separated list of numbers ")
+response_list = response.split(",")
+list_of_numbers = []
+for item in response_list:
+    list_of_numbers.append(int(item))
+
+answer = [item for item in list_of_numbers if item % 2 != 0]
+answer_squared = [item**2 for item in answer]
+print "The following numbers are odd", answer
+print "And this is a list of the square of each odd number", answer_squared
+
