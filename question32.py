@@ -12,8 +12,7 @@ Use range() for loops.
 
 def super_function():
     d = dict()
-    x = range(1, 21)
-    for item in x:
+    for item in range(1, 21):
         d[item] = item ** 2
     return d
 
