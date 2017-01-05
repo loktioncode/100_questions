@@ -19,7 +19,6 @@ In case of input data being supplied to the question, it should be assumed to be
 import re
 
 email_addr = raw_input("Enter email address ")
-# email_addr = "vuyisile@mozilla.com"
 result = re.search(r'(\w+)@(\w+)((\.)+(\w+))', email_addr)
 print "You are ", result.group(1)
 print "You work for", result.group(2)
