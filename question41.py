@@ -5,5 +5,5 @@ Hints:
 
 Use unicode() function to convert.
 '''
-uni_str = unicode(raw_input("Enter a string "), 'utf-811109')
+uni_str = unicode(raw_input("Enter a string "), 'utf-8')
 print type(uni_str)
